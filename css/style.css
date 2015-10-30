@@ -1,13 +1,10 @@
-.top-navigation{
-	background-color: #fff;
-}
 
-.top-navigation > .content{
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
 }
-
-.logo{
-	margin: 15px 0 0 40px ;
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
