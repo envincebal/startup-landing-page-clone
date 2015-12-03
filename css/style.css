@@ -1,12 +1,14 @@
 /* Navigation Section */
-html {
+  html {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
-*, *:before, *:after {
+
+  *, *:before, *:after {
   box-sizing: inherit;
 }
 
-.top-navigation{
+  .top-navigation{
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -14,19 +16,37 @@ html {
   letter-spacing: 0.03em;
 }
 
-.top-navigation > .content{
+  .top-navigation > .content{
   width: 970px;
   height: 70px;
   margin: 0 auto;
   padding: 0px 15px;
   }
 
+  .top-navigation .links > .active{
+  color: #4c5058;
+  font-weight: 500;
+  }
+
+  .logo{
+    padding-top: 10px;
+  }
+
   .links{
     float: right;
-    
+    padding-top: 5px;
   }
 
   .links li{
     display: inline-block;
+    margin-left: 20px;
+  }
+  
+  li{
+   cursor: pointer;
+  }
+
+  li:hover{
+    color: #000;
   }
 
