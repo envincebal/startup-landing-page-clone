@@ -1,10 +1,32 @@
 /* Navigation Section */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .top-navigation{
   background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
 .top-navigation > .content{
   width: 970px;
   height: 70px;
   margin: 0 auto;
+  padding: 0px 15px;
   }
+
+  .links{
+    float: right;
+    
+  }
+
+  .links li{
+    display: inline-block;
+  }
+
