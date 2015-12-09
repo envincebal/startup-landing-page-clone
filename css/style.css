@@ -7,6 +7,12 @@
   box-sizing: inherit;
 }
 
+  .top-navigation{
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  }
+
   .top-navigation .links{
   float: right;
   font-size: 16px;
@@ -49,6 +55,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
+    margin-bottom: 7em;
   }
 
   .introduction > .content{
@@ -62,7 +69,7 @@
   font-family:'Roboto', sans-serif;
   }
 
-  h1, h3{
+  h1,h2, h3{
     font-weight: 100;
     margin: 0 0;
   }
@@ -82,3 +89,25 @@
   .big-button:hover{
     background-color: #ff3300;
   }
+
+/* Icons Section */
+
+.cases .content{
+  text-align: center;
+  font-size: 1.8em;
+  color: #000;
+  margin-top: 5em;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+.devices li{
+  display: inline-block;
+  font-size: 0.6em;
+  width: 20%;
+}
+
+.devices img{
+  width: 150px;
+  height: 150px;
+}
